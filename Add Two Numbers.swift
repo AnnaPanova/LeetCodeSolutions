@@ -5,6 +5,7 @@
 //  Created by Anna Panova on 31.01.25.
 //
 
+import Foundation
 /* Add Two Numbers
  https://leetcode.com/problems/add-two-numbers/
  
@@ -42,8 +43,20 @@ You may assume the two numbers do not contain any leading zero, except the numbe
      public init(_ val: Int, _ next: ListNode?) { self.val = val; self.next = next; }
   }
  
-//class Solution {
-//    func addTwoNumbers(_ l1: ListNode?, _ l2: ListNode?) -> ListNode? {
-//
-//    }
-//}
+
+
+class Solution {
+   func addTwoNumbers(_ l1: ListNode?, _ l2: ListNode?) -> ListNode? {
+     
+       return [1,2,3]
+   }
+}
+
+func findReturn(_ l1:[Int], _ l2: [Int]) -> [Int] {
+    var str1 = ""
+    var str2 = ""
+    while l1 != [] || l2 != [] {
+        str1 += String(l1.dropLast())
+ str2 += String(l2.dropLast())
+    }
+}
